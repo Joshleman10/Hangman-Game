@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Classic Game Hangman!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Assets/css/styles.css">
+</head>
+<body background="Assets/images/background.png">
+    <div class="row">
+        <div class="col-md-12">
+                <h1 class="display-4">Classic Game Hangman</h1>
+                <p class="lead">Press or guess any letter to begin!</p>
+                <hr class="my-4">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="stats">
+                <p id="livesleft">LIVES:</p>
+                <p id="wins">WINS:</p>
+                <p id="losses">LOSSES:</p>
+                <p id="lettersguessed">LETTERS GUESSED:</p>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <p id="selectedword"></p>
+        </div>
+        </div>
+    </div>
+</div>
+<script src="Assets/Javascript/game.js"></script>
+</body>
+</html>
