@@ -1,6 +1,10 @@
-.background {
-    width:75%;
-    height:75px;
+body{
+background-image: url("../images/background.png");
+background-size:cover;
+background-repeat:no-repeat;
+font-weight:bolder;
+color:white;
+
 }
 p {
     font-family: 'Press Start 2P' , cursive;
